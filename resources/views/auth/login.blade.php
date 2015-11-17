@@ -29,7 +29,10 @@
                                 </label>
                             </div>
                             <button type="submit" class="btn btn-primary">Login</button>
-                            <p><a href="#" class="btn btn-link">Forgot Password?</a></p>
+                            <span>
+                               <p><a href="{{URL::route('register')}}" style="float: right" class="btn btn-link">Create Account</a></p>
+                               <p><a href="#" class="btn btn-link">Forgot Password?</a></p>
+                            </span>
                         </fieldset>
                     </form>
                 </div>
